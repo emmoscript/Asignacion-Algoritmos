@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Bootstrap 4 Blog Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/monokai-sublime.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+    
+
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Grupo #4</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image" >			
+					
+					<div class="bio mb-3">Hola, somos el grupo número 4. Esta es una actividad grupal y colaborativa donde cada equipo deberá realizar una investigación sobre los algoritmos de manejo de cadenas de texto (strings).<br><a href="about.html">Página de presentación del grupo</a></div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			        </ul><!--//social-list-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-left">
+					<li class="nav-item active">
+					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Página Principal <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>Presentación Grupal</a>
+					</li>
+				</ul>
+				
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">Descubre los principales algoritmos empleados para manejo de cadenas en los lenguajes de programación.</h2>
+				    <div class="meta mb-3"><span class="date">Autor: Manuel Bernabel (23-0285)</span></div>
+			    </header>
+			    
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href="https://coding180.com/"><img class="img-fluid" src="assets/images/blog/blog-post-banner-4.jpg" alt="image"></a>
+				        <figcaption class="mt-2 text-center image-caption">Créditos: <a href="https://coding180.com/" target="_blank">coding180.com</a></figcaption>
+				    </figure>
+				    <p>El manejo de cadenas es una tarea fundamental en la programación, y cada lenguaje de programación tiene sus propias herramientas y algoritmos para manipularlas de manera eficiente. A continuación, se describen algunos de los principales algoritmos empleados para el manejo de cadenas en seis lenguajes de programación populares.</p>
+				    
+				    <h3 class="mt-5 mb-3">1. Lenguaje C:</h3>
+				    <ul class="mb-5">
+						<li class="mb-2">Algoritmo de búsqueda de subcadenas: Utiliza la función <a href="https://www.ibm.com/docs/en/i/7.4?topic=functions-strstr-locate-substring" target="_blank"><code>strstr()</code></a> para buscar una subcadena dentro de una cadena principal.</li>
+						<li class="mb-2">Algoritmo de concatenación: Utiliza la función <a href="https://www.ibm.com/docs/en/i/7.4?topic=functions-strcat-concatenate-strings#strcat" target="_blank"><code>strcat()</code></a> para concatenar dos cadenas y crear una nueva cadena resultante.</li>
+					  </ul>
+
+					<h3 class="mt-5 mb-3">2. Java:</h3>
+				    <ul class="mb-5">
+						<li class="mb-2">Algoritmo de inversión de cadenas: Utiliza el método <code>reverse()</code> de la clase <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html target="_blank"><code>[StringBuilder<category="OTHER">]</code></a> para invertir el orden de los caracteres en una cadena.</li>
+						<li class="mb-2">Algoritmo de separación de cadenas: Utiliza el método <a href=https://codegym.cc/es/groups/posts/es.512.metodo-java-string-split- target="_blank"><code>String.split</code></a> para dividir una cadena en subcadenas más pequeñas basadas en un delimitador específico.</li>
+					  </ul>
+
+					<h3 class="mt-5 mb-3">3. Python:</h3>
+				    <ul class="mb-5">
+						<li class="mb-2">Algoritmo de búsqueda de subcadenas: Utiliza el operador <code>in</code> para verificar si una subcadena está presente en una cadena principal.</li>
+						<li class="mb-2">Algoritmo de reemplazo de cadenas: Utiliza el método <code>replace()</code> para reemplazar todas las ocurrencias de una subcadena por otra en una cadena.</li>
+					  </ul>
+
+					<h3 class="mt-5 mb-3">4. JavaScript:</h3>
+				    <ul class="mb-5">
+						<li class="mb-2">Algoritmo de búsqueda de subcadenas: Utiliza el método <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf" target="_blank"><code>indexOf()</code></a> para encontrar la posición de una subcadena dentro de una cadena principal.</li>
+						<li class="mb-2">Algoritmo de extracción de subcadenas: Utiliza el método <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring" target="_blank"><code>substring()</code></a> para extraer una porción específica de una cadena.</li>
+					  </ul>
+
+					<h3 class="mt-5 mb-3">5. PHP:</h3>
+				    <ul class="mb-5">
+						<li class="mb-2">Algoritmo de comparación de cadenas: Utiliza la función <a href="https://www.php.net/manual/es/function.strcmp.php" target="_blank"><code>strcmp()</code></a> para comparar dos cadenas y determinar si son iguales o diferentes.</li>
+						<li class="mb-2">Algoritmo de conversión de cadenas a mayúsculas/minúsculas: Utiliza las funciones <a href="https://www.php.net/manual/es/function.strtoupper.php" target="_blank"><code>strtoupper()</code></a> y <a href="https://www.php.net/manual/en/function.strtolower.php" target="_blank"><code>strtolower()</code></a> para convertir una cadena a mayúsculas o minúsculas respectivamente.
+						</li>
+					  </ul>
+
+					<h3 class="mt-5 mb-3">6. Ruby:</h3>
+				    <ul class="mb-5">
+						<li class="mb-2">Algoritmo de división de cadenas: Utiliza el método <a href="https://www.geeksforgeeks.org/ruby-string-split-method-with-examples/" target="_blank"><code>str.split()</code></a> para dividir una cadena en subcadenas más pequeñas basadas en un delimitador específico.</li>
+						<li class="mb-2">Algoritmo de ordenamiento de cadenas: Utiliza el método <a href="https://www.rubyguides.com/2017/07/ruby-sort/" target="_blank"><code>str.sort()</code></a> para ordenar un conjunto de cadenas en orden alfabético.</li>
+					  </ul>
+				    
+			    <nav class="blog-nav nav nav-justified my-5">
+				  <a class="nav-link-prev nav-item nav-link rounded-left" href="blog-post-3.html">Anterior<i class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
+				  <a class="nav-link-next nav-item nav-link rounded-right" href="blog-post-5.html">Siguiente<i class="arrow-next fas fa-long-arrow-alt-right"></i></a>
+				</nav>
+				
+				<div class="blog-comments-section">
+					<div id="disqus_thread"></div>
+					<script>
+					    /**
+					     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
+					     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
+					     *  PLATFORM OR CMS.
+					     *  
+					     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
+					     *  https://disqus.com/admin/universalcode/#configuration-variables
+					     */
+					    /*
+					    var disqus_config = function () {
+					        // Replace PAGE_URL with your page's canonical URL variable
+					        this.page.url = PAGE_URL;  
+					        
+					        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					        this.page.identifier = PAGE_IDENTIFIER; 
+					    };
+					    */
+					    
+					    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+					        var d = document, s = d.createElement('script');
+					        
+					        // IMPORTANT: Replace 3wmthemes with your forum shortname!
+					        s.src = 'https://3wmthemes.disqus.com/embed.js';
+					        
+					        s.setAttribute('data-timestamp', +new Date());
+					        (d.head || d.body).appendChild(s);
+					    })();
+					</script>
+					<noscript>
+					    Please enable JavaScript to view the 
+					    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+					        comments powered by Disqus.
+					    </a>
+					</noscript>
+				</div><!--//blog-comments-section-->
+				
+		    </div><!--//container-->
+	    </article>
+	    
+	    
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+			<small class="copyright">Diseñado con <i class="fas fa-heart" style="color: #fb866a;"></i> por <a href="https://github.com/emmoscript" target="_blank">Emil (22-0969)</a> para análisis de algoritmos.</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+    
+
+    <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->  
+    <div id="config-panel" class="config-panel d-none d-lg-block">
+        <div class="panel-inner">
+            <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6" ></i></a>
+            <h5 class="panel-title">Choose Colour</h5>
+            <ul id="color-options" class="list-inline mb-0">
+                <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" href="#"></a></li>
+                <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
+                <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
+                <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
+                <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
+                <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
+                <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
+                <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
+            </ul>
+            <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
+        </div><!--//panel-inner-->
+    </div><!--//configure-panel-->
+
+    
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script> 
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    
+    <!-- Page Specific JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/blog.js"></script>
+    
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>     
+    
+
+</body>
+</html> 
+

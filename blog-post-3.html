@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Bootstrap 4 Blog Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/monokai-sublime.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+    
+
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Grupo #4</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image" >			
+					
+					<div class="bio mb-3">Hola, somos el grupo número 4. Esta es una actividad grupal y colaborativa donde cada equipo deberá realizar una investigación sobre los algoritmos de manejo de cadenas de texto (strings).<br><a href="about.html">Página de presentación del grupo</a></div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			        </ul><!--//social-list-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-left">
+					<li class="nav-item active">
+					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Página Principal <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>Presentación Grupal</a>
+					</li>
+				</ul>
+				
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">¿Cuáles son las principales operaciones de manejo de cadenas?</h2>
+				    <div class="meta mb-3"><span class="date">Autor: Mario Almánzar (23-0221)</span></div>
+			    </header>
+			    
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href=""><img class="img-fluid" src="assets/images/blog/blog-post-banner-3.jpg" alt="image"></a>
+				        <figcaption class="mt-2 text-center image-caption">Créditos: <a href="" target="_blank">medium.com </a></figcaption>
+				    </figure>
+				    <p>Se pueden realizar una serie de operaciones con las cadenas, que pueden variar desde la concatenación (unir varias cadenas), extracción de partes de una cadena, calcular su longitud, entre otras. Este tipo de operaciones permiten que los desarrolladores puedan manipular y procesar este tipo de datos de manera eficiente.</p>
+				    
+				    <h3 class="mt-5 mb-3">¿Para qué son importantes las operaciones de manejo de cadenas?</h3>
+				    <p>Como fue mencionado anteriormente, las operaciones de manejo de cadenas permiten que los desarrolladores puedan manipular y procesar cadenas de manera eficiente. Esto quiere decir que permiten transformar el texto de diversas maneras, facilitando el procesamiento, análisis y la generación de informes.
+						<br><br>
+						Además, estas operaciones permiten lo siguiente:
+						<br><br>
+						<b>- Interacción con el usuario:</b> Permite formatear el texto de manera legible para el usuario, validar la entrada y procesar comandos o consultas ingresadas. Fundamental para aplicaciones de software que interactúan con el usuario mediante interfaces con texto.
+						<br><br>
+						<b>- Procesamiento de archivos:</b> Las operaciones de manejo de cadenas son de vital importancia para la lectura y escritura de datos en archivos y para analizar y manipular el contenido de los mismos. Esto tiene uso en las aplicaciones que trabajan con archivos de texto, como configuración, registro, etc.
+						<br><br>
+						<b>- Manipulación de datos estructurados:</b> Muchas veces, los datos estructurados se muestran en formato de cadena, como en archivos JSON o XML. Las operaciones permíten analizar y extraer información de estos datos, tanto para generarlos como para modificarlos.
+						<br><br>
+						<b>- Desarrollo web:</b> En HTML y CSS, las operaciones de manejo de cadenas son fundamentales para contruir y manipular la representación textual de páginas web y procesar datos enviados a través de formularios web.
+						<br><br></p>
+
+				    <h3 class="mt-5 mb-3">Tipos de operaciones.</h3>
+				    <p>A continuación, se presenta una lista con algunas de las operaciónes más comunes y fundamentales para las cadenas:</p>
+				    <ul class="mb-5">
+					  <li class="mb-2"><b>Concatenación:</b> Combinar dos cadenas para crear una única nueva cadena.</li>
+					  <li class="mb-2"><b>Longitud:</b> Determinar el número de caracteres de una cadena.</li>
+					  <li class="mb-2"><b>Acceso:</b> Acceder a caracteres individuales de una cadena utilizando un índice.</li>
+					  <li class="mb-2"><b>Subcadena:</b> Extraer una parte de una cadena.</li>
+					  <li class="mb-2"><b>Comparación:</b> Comparar dos cadenas y verificar la igualdad o el orden.</li>
+					  <li class="mb-2"><b>Búsqueda:</b> Encontrar la posición de una subcadena.</li>
+					  <li class="mb-2"><b>Modificación:</b> Reemplazar o cambiar caracteres dentro de una cadena.</li>
+					</ul>
+
+				    
+			    <nav class="blog-nav nav nav-justified my-5">
+				  <a class="nav-link-prev nav-item nav-link rounded-left" href="blog-post-2.html">Anterior<i class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
+				  <a class="nav-link-next nav-item nav-link rounded-right" href="blog-post-4.html">Siguiente<i class="arrow-next fas fa-long-arrow-alt-right"></i></a>
+				</nav>
+				
+				<div class="blog-comments-section">
+					<div id="disqus_thread"></div>
+					<script>
+					    /**
+					     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
+					     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
+					     *  PLATFORM OR CMS.
+					     *  
+					     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
+					     *  https://disqus.com/admin/universalcode/#configuration-variables
+					     */
+					    /*
+					    var disqus_config = function () {
+					        // Replace PAGE_URL with your page's canonical URL variable
+					        this.page.url = PAGE_URL;  
+					        
+					        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					        this.page.identifier = PAGE_IDENTIFIER; 
+					    };
+					    */
+					    
+					    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+					        var d = document, s = d.createElement('script');
+					        
+					        // IMPORTANT: Replace 3wmthemes with your forum shortname!
+					        s.src = 'https://3wmthemes.disqus.com/embed.js';
+					        
+					        s.setAttribute('data-timestamp', +new Date());
+					        (d.head || d.body).appendChild(s);
+					    })();
+					</script>
+					<noscript>
+					    Please enable JavaScript to view the 
+					    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+					        comments powered by Disqus.
+					    </a>
+					</noscript>
+				</div><!--//blog-comments-section-->
+				
+		    </div><!--//container-->
+	    </article>
+	    
+	    
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+			<small class="copyright">Diseñado con <i class="fas fa-heart" style="color: #fb866a;"></i> por <a href="https://github.com/emmoscript" target="_blank">Emil (22-0969)</a> para análisis de algoritmos.</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+    
+
+    <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->  
+    <div id="config-panel" class="config-panel d-none d-lg-block">
+        <div class="panel-inner">
+            <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6" ></i></a>
+            <h5 class="panel-title">Choose Colour</h5>
+            <ul id="color-options" class="list-inline mb-0">
+                <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" href="#"></a></li>
+                <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
+                <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
+                <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
+                <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
+                <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
+                <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
+                <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
+            </ul>
+            <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
+        </div><!--//panel-inner-->
+    </div><!--//configure-panel-->
+
+    
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script> 
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    
+    <!-- Page Specific JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/blog.js"></script>
+    
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>     
+    
+
+</body>
+</html> 
+

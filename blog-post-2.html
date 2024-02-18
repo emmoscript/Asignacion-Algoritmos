@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Bootstrap 4 Blog Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/monokai-sublime.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+    
+
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Grupo #4</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image" >			
+					
+					<div class="bio mb-3">Hola, somos el grupo número 4. Esta es una actividad grupal y colaborativa donde cada equipo deberá realizar una investigación sobre los algoritmos de manejo de cadenas de texto (strings).<br><a href="about.html">Página de presentación del grupo</a></div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			        </ul><!--//social-list-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-left">
+					<li class="nav-item active">
+					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Página Principal <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>Presentación Grupal</a>
+					</li>
+				</ul>
+				
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">¿Que son las cadenas como estructuras de datos en computación?</h2>
+				    <div class="meta mb-3"><span class="date">Autor: Mario Almánzar (23-0221)</span></div>
+			    </header>
+			    
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href="https://www.pexels.com/es-es/foto/18069696/"><img class="img-fluid" src="assets/images/blog/blog-post-banner-2.jpg" alt="image"></a>
+				        <figcaption class="mt-2 text-center image-caption">Foto de: <a href="https://www.pexels.com/es-es/foto/18069696/" target="_blank">Google DeepMind </a></figcaption>
+				    </figure>
+				    <p>Las cadenas o strings son un tipo de estructuras de datos que representan texto. Esto quiere decir que pueden ser una serie o secuencia de caracteres (letras, números y símbolos). Como este tipo de datos representa el texto, su utilización es fundamental para manipular data textual en múltiples lenguajes de programación. Dependiendo del lenguaje, las cadenas pueden ser consideradas tipos de datos o como estructuras de datos. La diferencia radica en que “estructura de datos” hace referencia a la manera en la que se organizan y se almacenan en la memoria estos datos para representar una secuencia de caracteres, mientras que “tipos de datos” se refiere a que son un tipo de dato proporcionado por el lenguaje en sí para representar y manipular texto.</p>
+				    
+				    <h3 class="mt-5 mb-3">Tipos de cadenas.</h3>
+				    <p>Las cadenas pueden ser mutables o inmutables. dependiendo siempre del lenguaje de programación en cuestión. En Python, por ejemplo, las cadenas son inmutables, por lo que una vez creada una cadena, no se puede modificar. En C, por dar un contraejemplo, esto no ocurre, ya que las cadenas con mutables y se pueden modificar en cualquier momento.</p>
+				    
+					<h3 class="mt-5 mb-3">Codificación de caracteres.</h3>
+					<p>La codificación de caracteres es un proceso donde se asignan números (códigos) a caracteres individuales en un conjunto de caracteres, como letras, números, símbolos y caracteres especiales. Esto es imperativo para que las computadoras entiendas las cadenas de texto, ya que estas sólo entienden y manipulan números.
+						<br><br>
+						Algunos tipos de codificaciones de caracteres son:
+						
+						<br><br><b>- ASCII:</b> El American Standard Code for Information Interchange fue una de las primeras codificaciones de caracteres, ampliamente utilizadas y estándar en la computación. ASCII asigna valores del 0 al 127 a caracteres comunes del alfabeto inglés, números, signos de puntuación, y algunos caracteres especiales.
+						<br><br><b>- Unicode:</b> Este es el estándar que permite asignar un número único a cada caracter, independiente sel idioma, plataforma o programa. Esto permite representar casi todos los caracteres que son utilizados en la escritura a nivel global.
+						<br><br><b>- UTF-8:</b> El Unicode Transformation Format - 8 bits es una variante de Unicode muy conocida que utiliza de 1 a 4 bytes para representar un caracter. Rs compatible con ASCII y con los sistemas existentes.
+						<br><br><b>- UTF-16 y  UTF-32:</b> Son otras variantes de Unicode donde, la UTF-16 utiliza de 2 a 4 bytes para representar un caracter y es ampliamente utilizada en Windows, mientras que la UTF-32 utiliza 4 bytes para cada caracter y representa cada caracter como un entero de 32 bits.
+						</p>
+					
+				   
+			    </div>
+				    
+			    <nav class="blog-nav nav nav-justified my-5">
+				  <a class="nav-link-prev nav-item nav-link rounded-left" href="index.html">Anterior<i class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
+				  <a class="nav-link-next nav-item nav-link rounded-right" href="blog-post-3.html">Siguiente<i class="arrow-next fas fa-long-arrow-alt-right"></i></a>
+				</nav>
+				
+				<div class="blog-comments-section">
+					<div id="disqus_thread"></div>
+					<script>
+					    /**
+					     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
+					     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
+					     *  PLATFORM OR CMS.
+					     *  
+					     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
+					     *  https://disqus.com/admin/universalcode/#configuration-variables
+					     */
+					    /*
+					    var disqus_config = function () {
+					        // Replace PAGE_URL with your page's canonical URL variable
+					        this.page.url = PAGE_URL;  
+					        
+					        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					        this.page.identifier = PAGE_IDENTIFIER; 
+					    };
+					    */
+					    
+					    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+					        var d = document, s = d.createElement('script');
+					        
+					        // IMPORTANT: Replace 3wmthemes with your forum shortname!
+					        s.src = 'https://3wmthemes.disqus.com/embed.js';
+					        
+					        s.setAttribute('data-timestamp', +new Date());
+					        (d.head || d.body).appendChild(s);
+					    })();
+					</script>
+					<noscript>
+					    Please enable JavaScript to view the 
+					    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+					        comments powered by Disqus.
+					    </a>
+					</noscript>
+				</div><!--//blog-comments-section-->
+				
+		    </div><!--//container-->
+	    </article>
+	    
+	    
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+			<small class="copyright">Diseñado con <i class="fas fa-heart" style="color: #fb866a;"></i> por <a href="https://github.com/emmoscript" target="_blank">Emil (22-0969)</a> para análisis de algoritmos.</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+    
+
+    <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->  
+    <div id="config-panel" class="config-panel d-none d-lg-block">
+        <div class="panel-inner">
+            <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6" ></i></a>
+            <h5 class="panel-title">Choose Colour</h5>
+            <ul id="color-options" class="list-inline mb-0">
+                <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" href="#"></a></li>
+                <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
+                <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
+                <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
+                <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
+                <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
+                <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
+                <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
+            </ul>
+            <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
+        </div><!--//panel-inner-->
+    </div><!--//configure-panel-->
+
+    
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script> 
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    
+    <!-- Page Specific JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/blog.js"></script>
+    
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>     
+    
+
+</body>
+</html> 
+
